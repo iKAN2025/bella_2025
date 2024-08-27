@@ -2,8 +2,8 @@ title: Bella's Compsci Blog
 description: "Class of 2025"
 owner_name: Bella
 github_username: iKAN2025
-github_repo: "bella_2025" 
-baseurl: "/bella_2025"
+github_repo: "baseline" 
+baseurl: "/baseline"
 future: true
 remote_theme: jekyll/minima
 minima:
