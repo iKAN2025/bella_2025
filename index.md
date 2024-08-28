@@ -19,12 +19,18 @@ Hi, I'm iKAN2025, a student at Del Norte High School who is interested in comput
 - **Full Stack Development**: Building comprehensive web applications from front-end to back-end.
 - **Team Collaboration**: Working effectively within teams to achieve common goals.
 
+
+
+
 ## Color Box 
 
-[Documentation]({{site.baseurl}}/indexdocumententation)
-[Ideation]({{site.baseurl}}/indexideation)
+- [Documentation]({{site.baseurl}}/indexdocumententation)
+- [Ideation]({{site.baseurl}}/indexideation)
 
-Items start out as primary colors before they are dragged into the box, where they are randomly assigned a color
+Items start out as primary colors before they are dragged into the box, where they are randomly assigned a color. The text changes to `Dropped`.
+
+
+
 
 
 <html lang="en">

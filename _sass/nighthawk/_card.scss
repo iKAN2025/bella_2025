@@ -1,0 +1,160 @@
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.section-title {
+    margin-top: 40px;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+// Variables
+$card-bg-color: #fff;
+$card-border-color: #ddd;
+$card-title-color: #333;
+$card-text-color: #555;
+$card-img-height: 200px;
+$card-margin: 1.5rem;
+
+// Card Group
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $card-margin;
+  margin-top: $card-margin;
+
+  .card {
+    border: 1px solid $card-border-color;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-img-top {
+      height: $card-img-height;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .card-body {
+      padding: 1rem;
+      background-color: $card-bg-color;
+
+      .card-title {
+        margin-bottom: 0.5rem;
+        font-size: 1.25rem;
+        color: $card-title-color;
+
+        a {
+          color: $card-title-color;
+          text-decoration: none;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: darken($card-title-color, 10%);
+          }
+        }
+      }
+
+      .card-text {
+        color: $card-text-color;
+        font-size: 0.875rem;
+        margin-bottom: 0.5rem;
+      }
+
+      strong {
+        display: block;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
+// Variables
+$card-bg-color: #fff;
+$card-border-color: #ddd;
+$card-title-color: #333;
+$card-text-color: #555;
+$card-img-height: 200px;
+$card-margin: 1.5rem;
+
+// Profile Pic Styles
+.profile-pic {
+  border-radius: 50% !important;
+  width: 150px !important;
+  height: 150px !important;
+}
+
+// Section Title Styles
+.section-title {
+  margin-top: 40px !important;
+}
+
+// Card Group Styles
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $card-margin !important;
+  margin-top: $card-margin !important;
+
+  // Individual Card Styles
+  .card {
+    border: 1px solid $card-border-color !important;
+    border-radius: 0.5rem !important;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    transition: box-shadow 0.3s ease !important;
+
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+    }
+
+    // Card Image Styles
+    .card-img-top {
+      height: $card-img-height !important;
+      object-fit: cover !important;
+      width: 100% !important;
+    }
+
+    // Card Body Styles
+    .card-body {
+      padding: 1rem !important;
+      background-color: $card-bg-color !important;
+
+      // Card Title Styles
+      .card-title {
+        margin-bottom: 0.5rem !important;
+        font-size: 1.25rem !important;
+        color: $card-title-color !important;
+
+        a {
+          color: $card-title-color !important;
+          text-decoration: none !important;
+          transition: color 0.3s ease !important;
+
+          &:hover {
+            color: darken($card-title-color, 10%) !important;
+          }
+        }
+      }
+
+      // Card Text Styles
+      .card-text {
+        color: $card-text-color !important;
+        font-size: 0.875rem !important;
+        margin-bottom: 0.5rem !important;
+      }
+
+      // Strong Tag Styles
+      strong {
+        display: block !important;
+        margin-top: 0.5rem !important;
+      }
+    }
+  }
+}
