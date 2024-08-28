@@ -27,7 +27,7 @@ Hi, I'm iKAN2025, a student at Del Norte High School who is interested in comput
 - [Documentation]({{site.baseurl}}/indexdocumententation)
 - [Ideation]({{site.baseurl}}/indexideation)
 
-Items start out as primary colors before they are dragged into the box, where they are randomly assigned a color. The text changes to `Dropped`.
+Items start out as their assigned colors before they are dragged into the box, where they are randomly assigned a color. The text changes to `Dropped`.
 
 
 
