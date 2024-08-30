@@ -2,12 +2,20 @@
 toc: false
 comments: true
 layout: post
-title: Assignment Calculator
-permalink: /calc
+title: Score Calculator
+permalink: /score
 toc: true
 comments: true
 ---
-<style>
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Calculator</title>
+    <style>
         table {
             width: 100%;
             border-collapse: collapse;
@@ -26,7 +34,7 @@ comments: true
 </head>
 <body>
     <!-- Help Message -->
-    <h3>Input scores, press tab or enter to add a new score.</h3>
+    <h3>Input scores, press Tab or Enter to add a new score.</h3>
     <!-- Table for scores -->
     <table>
         <thead>
@@ -52,7 +60,7 @@ comments: true
             </tr>
             <tr>
                 <td>Count:</td>
-                <td colspan="2" id="count">0.0</td>
+                <td colspan="2" id="count">0</td>
             </tr>
             <tr>
                 <td>Average:</td>
@@ -84,54 +92,45 @@ comments: true
                         count++;
                     }
                 });
+
                 var average = count > 0 ? (total / count).toFixed(2) : "0.0";
                 var percentage = maxTotal > 0 ? ((total / maxTotal) * 100).toFixed(2) : "0.0";
                 var gpa = calculateGPA(percentage);
+
                 document.getElementById('total').innerText = total.toFixed(2);
                 document.getElementById('maxTotal').innerText = maxTotal.toFixed(2);
                 document.getElementById('count').innerText = count;
                 document.getElementById('average').innerText = average;
                 document.getElementById('percentage').innerText = percentage + '%';
-                document.getElementById('gpa').innerText = gpa;
-=
+                document.getElementById('gpa').innerText = gpa.toFixed(2);
+
                 if (rows.length === count) {
                     newInputRow(count + 1);
                 }
                 saveToLocalStorage();
             }
         }
-        // Function to calculate GPA based on percentage
-        function calculateGPA(percentage) {
-            var gpa = 0.0;
-            if (percentage >= 90) {
-                gpa = 4.0;
-            } else if (percentage >= 80) {
-                gpa = 3.0;
-            } else if (percentage >= 70) {
-                gpa = 2.0;
-            } else if (percentage >= 60) {
-                gpa = 1.0;
-            } else {
-                gpa = 0.0;
-            }
-            return gpa.toFixed(2);
-        }
+
         // Function to create a new input row
         function newInputRow(index) {
             var row = document.createElement('tr');
             var assignmentCell = document.createElement('td');
             var scoreCell = document.createElement('td');
             var maxCell = document.createElement('td');
+
             assignmentCell.innerHTML = `<input type="text" name="assignment" placeholder="Assignment ${index}" style="width: 100%;">`;
             scoreCell.innerHTML = `<input type="number" name="score" onkeydown="calculator(event)">`;
             maxCell.innerHTML = `<input type="number" name="max" onkeydown="calculator(event)">`;
+
             row.appendChild(assignmentCell);
             row.appendChild(scoreCell);
             row.appendChild(maxCell);
             document.getElementById('scores').appendChild(row);
+
             // Set focus on the new input field
             row.querySelector('input[name="assignment"]').focus();
         }
+
         // Function to save data to local storage
         function saveToLocalStorage() {
             var rows = document.querySelectorAll('#scores tr');
@@ -146,6 +145,7 @@ comments: true
             });
             localStorage.setItem('scoresData', JSON.stringify(data));
         }
+
         // Function to load data from local storage
         function loadFromLocalStorage() {
             var data = JSON.parse(localStorage.getItem('scoresData')) || [];
@@ -159,6 +159,17 @@ comments: true
                 });
             }
         }
+
+        // Function to calculate GPA based on percentage
+        function calculateGPA(percentage) {
+            // Example GPA calculation: convert percentage to GPA on a 4.0 scale
+            if (percentage >= 90) return 4.0;
+            if (percentage >= 80) return 3.0;
+            if (percentage >= 70) return 2.0;
+            if (percentage >= 60) return 1.0;
+            return 0.0;
+        }
+
         // Initialize with saved data
         loadFromLocalStorage();
     </script>
