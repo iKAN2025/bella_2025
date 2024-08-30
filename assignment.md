@@ -7,38 +7,6 @@ permalink: /calc
 toc: true
 comments: true
 ---
-<title>Score Calculator</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 10px 0;
-        }
-        th, td {
-            padding: 10px;
-            text-align: right;
-            border: 1px solid #ddd;
-        }
-        th {
-            background-color: #4CAF50; /* Green background */
-            color: white;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2; /* Light gray for even rows */
-        }
-        tr:hover {
-            background-color: #ddd; /* Light gray for row hover */
-        }
-        input {
-            width: 100%;
-            box-sizing: border-box;
-        }
-        .tfoot {
-            background-color: #f4f4f4; /* Light gray for footer */
-            font-weight: bold;
-        }
-    </style>
-</head>
 <body>
     <!-- Help Message -->
     <h3>Input scores, press tab or enter to add a new score.</h3>
