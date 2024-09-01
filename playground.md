@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Playground
+title: Pair Programming Playground
 permalink: /playground/
 type: issues
-courses: {csa: {week: 0}}
+courses: {csa: {week: 1}}
 utterances: true
 ---
 
