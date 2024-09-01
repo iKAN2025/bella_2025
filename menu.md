@@ -35,6 +35,4 @@ permalink: /menu/
             document.getElementById('total').textContent = total.toFixed(2);
         });
     </script>
-
-</body>
 </html>
