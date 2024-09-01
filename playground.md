@@ -18,6 +18,9 @@ Enjoy!
 
 
 
+
+
+
 <div style="text-align: center; margin-top: 20px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/2ChocolateChipCookies.jpg" alt="Two Chocolate Chip Cookies" id="cookie" style="width: 200px; cursor: pointer; position: relative;"/>
     <p id="counter" style="font-size: 24px; font-weight: bold; margin: 20px 0;">Cookies: 0</p>
@@ -81,7 +84,12 @@ Enjoy!
             localStorage.setItem('achievement1', true);
             setTimeout(() => achievement.innerText = "", 3000);
         }
-        if (count >= 1000 && !localStorage.getItem('achievement2')) {
+        if (count >= 500 && !localStorage.getItem('achievement2')) {
+            achievement.innerText = "Achievement Unlocked: 500 Cookies!";
+            localStorage.setItem('achievement1', true);
+            setTimeout(() => achievement.innerText = "", 3000);
+        }
+        if (count >= 1000 && !localStorage.getItem('achievement3')) {
             achievement.innerText = "Achievement Unlocked: 1000 Cookies!";
             localStorage.setItem('achievement2', true);
             setTimeout(() => achievement.innerText = "", 3000);
@@ -152,7 +160,7 @@ Enjoy!
     document.querySelector('div').appendChild(goldenCookie);
 
     const showGoldenCookie = () => {
-        if (Math.random() < 0.1) {  // 10% chance to show golden cookie
+        if (Math.random() < 0.4) {  // 40% chance to show golden cookie
             goldenCookie.style.display = 'block';
             setTimeout(() => goldenCookie.style.display = 'none', 5000);
         }
