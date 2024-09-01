@@ -10,7 +10,8 @@ permalink: /playground/
 - Changed layout from page to post
 - Added Styling
 - Organized Code/Kept Capitalizing Consistent
-- Add features like sound, achievements, golden cookies etc:
+- Local Storage! Yay!
+- Add features like  achievements, golden cookies etc:
 
 Enjoy!
 
@@ -72,10 +73,7 @@ Enjoy!
         localStorage.setItem('count', count);
     };
 
-    const playClickSound = () => {
-        const clickSound = new Audio('https://www.soundjay.com/button/sounds/button-16.mp3');
-        clickSound.play();
-    };
+
 
     const checkAchievements = () => {
         const achievement = document.getElementById("achievement");
@@ -99,7 +97,6 @@ Enjoy!
     document.getElementById("cookie").addEventListener("click", function() {
         count += 1 * mult * bigMult;
         updateCounter();
-        playClickSound();
         checkAchievements();
         showClickAnimation();
     });
