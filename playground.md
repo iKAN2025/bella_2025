@@ -157,7 +157,7 @@ Enjoy!
     document.querySelector('div').appendChild(goldenCookie);
 
     const showGoldenCookie = () => {
-        if (Math.random() < 0.4) {  // 40% chance to show golden cookie
+        if (Math.random() < 0.99) {  // 40% chance to show golden cookie
             goldenCookie.style.display = 'block';
             setTimeout(() => goldenCookie.style.display = 'none', 5000);
         }
