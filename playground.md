@@ -7,9 +7,7 @@ courses: {csa: {week: 1}}
 utterances: true
 ---
 
-This is our pair programming project, by Trystan and I. I have made mutiple issues about our collaboration, but we also talked a lot about the cookie clicker in class and taken a look at each other's code.
-
-
+This is our pair programming project, by Trystan and I.  Trystam started with the base code, and I changed things around according to my style. Although I have made multiple issues about our collaboration, <strong> we  <strong> also talked a lot about the cookie clicker in class and taken a look at each other's code. We also discussed problems we encountered. (Eg: Was 3000 to high a number for sacrificing cookies? Is it likely that a user would wait that long? And if we could, how could we speed up the process?)
 
 Here is the [issue] (https://github.com/iKAN2025/bella_2025/issues/5).
 
