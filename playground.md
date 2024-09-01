@@ -1,10 +1,17 @@
 ---
-layout: page
+layout: post
 title: Playground
 permalink: /playground/
+type: issues
+courses: {csa: {week: 0}}
+utterances: true
 ---
 
-[Link to page about site](https://nighthawkcoders.github.io/portfolio_2025/javascript/project/play)
+This is our pair programming project, by Trystan and I. I have made mutiple issues about our collaboration, but we also talked a lot about the cookie clicker in class and taken a look at each other's code.
+
+
+
+Here is the [issue] (https://github.com/iKAN2025/bella_2025/issues/5).
 
 # Changes from Trystan's Original Version
 - Changed layout from page to post
