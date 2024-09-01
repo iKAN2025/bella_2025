@@ -84,12 +84,12 @@ Enjoy!
         }
         if (count >= 500 && !localStorage.getItem('achievement2')) {
             achievement.innerText = "Achievement Unlocked: 500 Cookies!";
-            localStorage.setItem('achievement1', true);
+            localStorage.setItem('achievement2', true);
             setTimeout(() => achievement.innerText = "", 3000);
         }
         if (count >= 1000 && !localStorage.getItem('achievement3')) {
             achievement.innerText = "Achievement Unlocked: 1000 Cookies!";
-            localStorage.setItem('achievement2', true);
+            localStorage.setItem('achievement3', true);
             setTimeout(() => achievement.innerText = "", 3000);
         }
     };
