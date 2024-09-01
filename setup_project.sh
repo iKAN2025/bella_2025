@@ -47,7 +47,7 @@ else
 fi
 
 # Install Python libraries for Jupyter Notebook conversion
-echo "Installing Python libraries for Jupyter Notebook..."
+echo "Installing Python libraries for Jupyter Notebook. This is going to take a while."
 pip install nbconvert nbformat pyyaml
 
 # Version Checks
@@ -55,6 +55,9 @@ echo "Performing version checks..."
 ruby -v
 python --version
 jupyter --version
+echo "This was broken last time..hehe.."
+mdless --version
+echo "Jupyer Kernels" 
 jupyter kernelspec list
 
 # Setup GitHub and project directory
@@ -64,14 +67,8 @@ cd ~/nighthawk/bella_2025
 python3 -m venv venv
 source venv/bin/activate
 
-# Open VS Code in the project directory
-echo "Opening VS Code in the project directory..."
-code .
 
-# Install bundle and run the local server
-echo "Installing bundle and running the local server..."
-bundle install
-bundle exec jekyll serve --incremental
+echo "Ready to open VS Code? Bye bye :)"
+code . 
 
 
-echo "Setup complete! Visit http://127.0.0.1:4100/portfolio_2025/ to view your site locally."
