@@ -4,144 +4,171 @@ title: Playground
 permalink: /playground/
 ---
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cookie Clicker Game</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            text-align: center;
-        }
-        #cookie {
-            cursor: pointer;
-            border: 2px solid #333;
-            border-radius: 10px;
-            width: 150px;
-            transition: transform 0.1s;
-        }
-        #cookie:active {
-            transform: scale(0.9);
-        }
-        button {
-            margin: 10px;
-            padding: 10px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        #store {
-            margin-top: 20px;
-        }
-        #achievement {
-            font-size: 18px;
-            color: green;
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Cookie Clicker Game</h1>
-    <p><a href="https://nighthawkcoders.github.io/portfolio_2025/javascript/project/play">Link to page about site</a></p>
-    <div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/2ChocolateChipCookies.jpg" alt="Two Chocolate Chip Cookies" id="cookie"/>
-        <p id="counter">cookies: 1000</p>
-        <button id="multiplier">1.1x cookies, 10 cookies</button>
-        <button id="passive">passive cookie collection, 100 cookies</button>
-        <div id="store"></div>
-        <p id="achievement"></p>
-    </div>
-    <audio id="clickSound" src="https://www.soundjay.com/button/beep-07.wav"></audio>
-   <audio id="upgradeSound" src="https://www.soundjay.com/button/beep-09.wav"></audio>
-    <script>
-        var count = 1000;
-        var mult = 1;
-        var passiveCount = 0;
-        var cost = 10;
-        var cost1 = 100;
-        var upgrades = [
-            { name: "Double Click", cost: 50, effect: () => mult *= 2 },
-            { name: "Triple Click", cost: 200, effect: () => mult *= 3 }
-        ];
+[Link to page about site](https://nighthawkcoders.github.io/portfolio_2025/javascript/project/play)
 
-        function checkAchievements() {
-            if (count >= 10000 && !document.getElementById("achievement").innerText) {
-                document.getElementById("achievement").innerText = "Achievement Unlocked: 10,000 Cookies!";
-            }
+# Changes from Trystan's Original Version
+- Changed layout from page to post
+- Added Styling
+- Organized Code/Kept Capitalizing Consistent
+- Add features like sound, achievements, golden cookies etc:
+
+Enjoy!
+
+
+
+
+
+<div style="text-align: center; margin-top: 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/2ChocolateChipCookies.jpg" alt="Two Chocolate Chip Cookies" id="cookie" style="width: 200px; cursor: pointer; position: relative;"/>
+    <p id="counter" style="font-size: 24px; font-weight: bold; margin: 20px 0;">Cookies: 0</p>
+    <button id="multiplier" class="cookie-button">1.1x Cookies, 10 Cookies</button>
+    <button id="passive" class="cookie-button">Passive Cookie Collection, 100 Cookies</button>
+    <button id="sacrifice" class="cookie-button">SACRIFICE THE COOKIES!, 3000 Cookies</button>
+    <p id="achievement" style="margin-top: 20px; font-size: 18px; font-weight: bold;"></p>
+</div>
+
+<style>
+    .cookie-button {
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #ff8c00;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .cookie-button:hover {
+        background-color: #ffa500;
+    }
+    #goldenCookie {
+        display: none;
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+</style>
+
+<script>
+    let count = parseFloat(localStorage.getItem('count')) || 0;
+    let bigMult = parseFloat(localStorage.getItem('bigMult')) || 1;
+    let mult = parseFloat(localStorage.getItem('mult')) || 1;
+    let passiveCount = parseFloat(localStorage.getItem('passiveCount')) || 0;
+    let cost = parseFloat(localStorage.getItem('cost')) || 10;
+    let cost1 = parseFloat(localStorage.getItem('cost1')) || 100;
+    let cost2 = parseFloat(localStorage.getItem('cost2')) || 3000;
+
+    const updateCounter = () => {
+        document.getElementById("counter").innerText = `Cookies: ${Math.ceil(count)}`;
+        localStorage.setItem('count', count);
+    };
+
+    const playClickSound = () => {
+        const clickSound = new Audio('https://www.soundjay.com/button/sounds/button-16.mp3');
+        clickSound.play();
+    };
+
+    const checkAchievements = () => {
+        const achievement = document.getElementById("achievement");
+        if (count >= 100 && !localStorage.getItem('achievement1')) {
+            achievement.innerText = "Achievement Unlocked: 100 Cookies!";
+            localStorage.setItem('achievement1', true);
+            setTimeout(() => achievement.innerText = "", 3000);
         }
-
-        function renderUpgrades() {
-            var store = document.getElementById("store");
-            store.innerHTML = '';
-            upgrades.forEach(upgrade => {
-                var button = document.createElement("button");
-                button.innerText = `${upgrade.name} (${upgrade.cost} cookies)`;
-                button.addEventListener("click", function() {
-                    if (count >= upgrade.cost) {
-                        count -= upgrade.cost;
-                        upgrade.effect();
-                        renderUpgrades();
-                        document.getElementById("counter").innerText = "cookies: " + count.toFixed(0);
-                    }
-                });
-                store.appendChild(button);
-            });
+        if (count >= 1000 && !localStorage.getItem('achievement2')) {
+            achievement.innerText = "Achievement Unlocked: 1000 Cookies!";
+            localStorage.setItem('achievement2', true);
+            setTimeout(() => achievement.innerText = "", 3000);
         }
+    };
 
-        document.getElementById("cookie").addEventListener("click", function() {
-            count += 1 * mult;
-            document.getElementById("counter").innerText = "cookies: " + count.toFixed(0).toString();
-            document.getElementById("clickSound").play();
-            checkAchievements();
-        });
+    document.getElementById("cookie").addEventListener("click", function() {
+        count += 1 * mult * bigMult;
+        updateCounter();
+        playClickSound();
+        checkAchievements();
+        showClickAnimation();
+    });
 
-        document.getElementById("multiplier").addEventListener("click", function() {
-            if (count >= cost) {
-                count = Math.floor(count - cost);
-                cost = cost * 1.5;
-                mult = mult * 1.1;
-                this.innerText = "1.1x cookies, " + Math.ceil(cost).toString() + " cookies";
-                document.getElementById("counter").innerText = "cookies: " + Math.ceil(count).toString();
-                document.getElementById("upgradeSound").play();
-            }
-        });
-
-        document.getElementById("passive").addEventListener("click", function() {
-            if (count >= cost1) {
-                count = Math.floor(count - cost1);
-                passiveCount += 1;
-                cost1 = cost1 * 1.5;
-                this.innerText = "passive cookie collection, " + Math.ceil(cost1).toString() + " cookies";
-                document.getElementById("counter").innerText = "cookies: " + Math.ceil(count).toString();
-            }
-        });
-
-        // Remove the automatic cookie increment
-        // setInterval(function() {
-        //     count += passiveCount;
-        //     document.getElementById("counter").innerText = "cookies: " + Math.ceil(count).toString();
-        // }, 1000);
-
-        function saveGame() {
-            localStorage.setItem("cookieCount", count);
-            localStorage.setItem("cookieMultiplier", mult);
-            localStorage.setItem("passiveCount", passiveCount);
+    const multButton = document.getElementById("multiplier");
+    multButton.addEventListener("click", function() {
+        if (count >= cost) {
+            count = Math.floor(count - cost);
+            cost = cost * 1.5;
+            mult = mult * 1.1;
+            multButton.innerText = `1.1x Cookies, ${Math.ceil(cost)} Cookies`;
+            updateCounter();
+            localStorage.setItem('cost', cost);
+            localStorage.setItem('mult', mult);
         }
+    });
 
-        function loadGame() {
-            count = parseFloat(localStorage.getItem("cookieCount")) || 1000;
-            mult = parseFloat(localStorage.getItem("cookieMultiplier")) || 1;
-            passiveCount = parseInt(localStorage.getItem("passiveCount")) || 0;
-            document.getElementById("counter").innerText = "cookies: " + count.toFixed(0);
-            renderUpgrades();
+    const passiveButton = document.getElementById("passive");
+    passiveButton.addEventListener("click", function() {
+        if (count >= cost1) {
+            count = Math.floor(count - cost1);
+            passiveCount += 1;
+            cost1 = cost1 * 1.5;
+            passiveButton.innerText = `Passive Cookie Collection, ${Math.ceil(cost1)} Cookies`;
+            updateCounter();
+            localStorage.setItem('cost1', cost1);
+            localStorage.setItem('passiveCount', passiveCount);
         }
+    });
 
-        window.addEventListener("beforeunload", saveGame);
-        window.addEventListener("load", loadGame);
-    </script>
-</body>
-</html>
+    const sacrificeButton = document.getElementById("sacrifice");
+    sacrificeButton.addEventListener("click", function() {
+        if (count >= cost2) {
+            count = 0;
+            cost = 10;
+            cost1 = 100;
+            passiveCount = 0;
+            mult = 1;
+            bigMult = bigMult * 1.8;
+            cost2 = cost2 * 2;
+            multButton.innerText = `1.1x Cookies, ${Math.ceil(cost)} Cookies`;
+            passiveButton.innerText = `Passive Cookie Collection, ${Math.ceil(cost1)} Cookies`;
+            sacrificeButton.innerText = `SACRIFICE THE COOKIES!, ${Math.ceil(cost2)} Cookies`;
+            updateCounter();
+            localStorage.clear();
+        }
+    });
 
+    const showClickAnimation = () => {
+        const cookie = document.getElementById("cookie");
+        cookie.style.transform = "scale(0.9)";
+        setTimeout(() => cookie.style.transform = "scale(1)", 100);
+    };
+
+    const goldenCookie = document.createElement('img');
+    goldenCookie.src = 'https://upload.wikimedia.org/wikipedia/commons/8/89/Gold_Star_%28Yellow%29.png';
+    goldenCookie.id = 'goldenCookie';
+    document.querySelector('div').appendChild(goldenCookie);
+
+    const showGoldenCookie = () => {
+        if (Math.random() < 0.1) {  // 10% chance to show golden cookie
+            goldenCookie.style.display = 'block';
+            setTimeout(() => goldenCookie.style.display = 'none', 5000);
+        }
+    };
+
+    goldenCookie.addEventListener("click", function() {
+        count += 500;
+        updateCounter();
+        goldenCookie.style.display = 'none';
+    });
+
+    setInterval(function() {
+        count += passiveCount * bigMult;
+        updateCounter();
+        showGoldenCookie();
+    }, 1000);
+</script>
 
 
