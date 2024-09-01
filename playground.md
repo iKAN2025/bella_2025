@@ -33,29 +33,29 @@ Enjoy!
 
 <style>
     .cookie-button {
-        padding: 10px 20px;
-        margin: 10px;
-        font-size: 16px;
-        font-weight: bold;
-        color: #fff;
-        background-color: #ff8c00;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
+        padding: 10px 20px !important;
+        margin: 10px !important;
+        font-size: 16px !important;
+        font-weight: bold !important;
+        color: #fff !important;
+        background-color: #ff8c00 !important;
+        border: none !important;
+        border-radius: 5px !important;
+        cursor: pointer !important;
+        transition: background-color 0.3s ease !important;
     }
     .cookie-button:hover {
-        background-color: #ffa500;
+        background-color: #ffa500 !important;
     }
     #goldenCookie {
-        display: none;
-        position: absolute;
-        top: -20px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 50px;
-        cursor: pointer;
-        z-index: 1000;
+        display: none !important;
+        position: absolute !important;
+        top: -20px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: 50px !important;
+        cursor: pointer !important;
+        z-index: 1000 !important;
     }
 </style>
 
