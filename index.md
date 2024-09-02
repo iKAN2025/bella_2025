@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Student Home
+title: Bella's CSA Blog
 description: Home Page
 hide: true
 ---

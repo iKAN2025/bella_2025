@@ -5,6 +5,7 @@ description: Creating a shell script that installed required dependencies for to
 courses: {csa: {week: 0}}
 type: issues
 permalink: /tooltangible
+comments: true
 ---
 
 

@@ -64,7 +64,7 @@ jupyter kernelspec list
 echo "Setting up GitHub project directory..."
 cd ~/nighthawk/bella_2025
 
-echo "Creating virtual environment to ensure compatibility wuth Python 3.12.6"
+echo "Creating virtual environment to ensure compatibility with Python"
 # Create virtual environment
 python3 -m venv venv
 source venv/bin/activate

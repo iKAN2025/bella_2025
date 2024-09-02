@@ -2,6 +2,7 @@
 layout: post
 title: Menu
 permalink: /menu/
+comments: true
 ---
 
 <html> 
