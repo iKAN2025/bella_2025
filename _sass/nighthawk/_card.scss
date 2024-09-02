@@ -10,71 +10,71 @@ $card-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.15)  !default;
 
 // Profile Pic Styles
 .profile-pic {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  border-radius: 50% !important;
+  width: 150px !important;
+  height: 150px !important;
 }
 
 // Section Title Styles
 .section-title {
-  margin-top: 40px;
+  margin-top: 40px !important;
 }
 
 // Card Group Styles
 .card-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $card-margin;
-  margin-top: $card-margin;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: $card-margin !important;
+  margin-top: $card-margin !important;
 
   .card {
-    border: 1px solid $card-border-color;
-    border-radius: 0.5rem;
-    overflow: hidden;
-    box-shadow: $card-shadow;
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-    background-color: $card-bg-color;
+    border: 1px solid $card-border-color !important;
+    border-radius: 0.5rem !important;
+    overflow: hidden !important;
+    box-shadow: $card-shadow !important;
+    transition: box-shadow 0.3s ease , transform 0.3s ease !important;
+    background-color: $card-bg-color !important;
 
     &:hover {
-      box-shadow: $card-shadow-hover;
-      transform: translateY(-2px);
+      box-shadow: $card-shadow-hover !important;
+      transform: translateY(-2px) !important;
     }
 
     .card-img-top {
-      height: $card-img-height;
-      object-fit: cover;
-      width: 100%;
+      height: $card-img-height !important;
+      object-fit: cover !important;
+      width: 100% !important;
     }
 
     .card-body {
-      padding: 1rem;
-      background-color: $card-bg-color;
+      padding: 1rem !important;
+      background-color: $card-bg-color !important;
 
       .card-title {
-        margin-bottom: 0.5rem;
-        font-size: 1.25rem;
-        color: $card-title-color;
+        margin-bottom: 0.5rem !important;
+        font-size: 1.25rem !important;
+        color: $card-title-color !important;
 
         a {
-          color: $card-title-color;
-          text-decoration: none;
-          transition: color 0.3s ease;
+          color: $card-title-color !important;
+          text-decoration: none !important;
+          transition: color 0.3s ease !important;
 
           &:hover {
-            color: darken($card-title-color, 10%);
+            color: darken($card-title-color, 10%) !important;
           }
         }
       }
 
       .card-text {
-        color: $card-text-color;
-        font-size: 0.875rem;
-        margin-bottom: 0.5rem;
+        color: $card-text-color !important;
+        font-size: 0.875rem !important;
+        margin-bottom: 0.5rem !important;
       }
 
       strong {
-        display: block;
-        margin-top: 0.5rem;
+        display: block !important;
+        margin-top: 0.5rem !important;
       }
     }
   }
