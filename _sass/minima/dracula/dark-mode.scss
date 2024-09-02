@@ -5,7 +5,7 @@
 $high-emph: rgba(0, 255, 143, 0.87);  // Lime green (complementary to dark blue)
 $med-emph: rgba(255, 105, 180, 0.69); // Hot pink (complementary to dark blue)
 $low-emph: rgba(0, 255, 255, 0.38);   // Cyan teal (complementary to dark blue)
-$dark-grey : #002451; 
+$dark-grey : #001F3F; 
 
 $overlay: mix($dark-grey, white, 95%);
 $overlay-light: mix($dark-grey, white, 86%);
@@ -16,9 +16,12 @@ html, body, input, textarea, select, button {
 }
 
 a {
-    color: rgb(75, 186, 255) !important;
+    color: #FFA500 !important; // Bright Orange
 }
 
+a:hover {
+    color: $high-emph !important; // This retains the hover effect color
+}
 a:hover {
     color:$high-emph !important;
 }
