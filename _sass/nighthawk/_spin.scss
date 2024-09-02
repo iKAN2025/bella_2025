@@ -1,23 +1,23 @@
 
-@keyframes rainbow {
-    0% { background-color: red; }
+@keyframes multicolor {
+    0% { background-color: palevioletred; }
     12% { background-color: orange; }
     24% { background-color: yellow; }
-    36% { background-color: green; }
-    48% { background-color: blue; }
-    72% { background-color: indigo; }
+    36% { background-color: lightgreen; }
+    48% { background-color: lightblue; }
+    72% { background-color: pink; }
     84% { background-color: violet; }
-    100% { background-color: red; }
+    100% { background-color: palevioletred; }
 }
 
-.rainbow {
-    width: 100px;
-    height: 100px;
-    animation: rainbow 5s linear infinite;
+.multicolor {
+    width: 300px;
+    height: 300px;
+    animation: multicolor 5s linear infinite;
     margin: auto;
 }
 
-@keyframes spinMove {
+@keyframes coolSpinnyStuff {
     0% {
       transform: rotate(0deg) translateX(0);
     }
@@ -53,7 +53,7 @@
     }
 }
 
-.spinMove {
+.coolSpinnyStuff {
     width: 100px;
     height: 100px;
     margin: auto;
