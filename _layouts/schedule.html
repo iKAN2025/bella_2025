@@ -8,7 +8,15 @@ Setup course data
 
 {% assign course = site.data[page.course] %} <!-- Load YML data -->
 {% assign units = page.units | split: ',' %}
-
+<h2><span style="background: -webkit-linear-gradient(left, violet , darkblue); -webkit-background-clip: text; color: transparent;">
+  Bella's CSA Notebook
+  </span>
+</h2>
+<div style="background-color: darkblue; border-radius: 13px; padding: 3px;">
+  <div style="background-color: orange; width: 66.67%; height: 10px; border-radius: 10px;"></div>
+</div>
+<br>
+ 
 {%comment%} 
 Load all posts
 {%endcomment%}
@@ -46,12 +54,13 @@ Load all posts
 <!-- Column Headings for Blogs -->
 {%endcomment%}
 
+
 <table>
   <tr>
-    <th>Week</th>
-    <th>Issues</th>
-    <th>Code, Code, Code</th>
-    <th>Collaboration</th>
+    <th><span style="color:magenta">Week</span></th>
+    <th><span style="color:orange">Issues/Tangibles</span></th>
+    <th><span style="color:lightblue">Code, Code, Code</span></th>
+    <th><span style="color:magenta">Collaboration</span></th>
   </tr>
 
   {%comment%} 
