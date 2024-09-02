@@ -3,7 +3,6 @@ layout: post
 title: Tools and Equipment Tangibles
 description: Creating a shell script that installed required dependencies for tools and equipment, performed version checks, ran server locally, and opened repository in vscode whilst creating an virtual environment (required for Python 3.12.5, recommended by teacher) with an alias. 
 courses: {csa: {week: 0}}
-comments: true
 type: issues
 permalink: /tooltangible
 ---

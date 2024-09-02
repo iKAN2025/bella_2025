@@ -1,8 +1,7 @@
 ---
 layout: base
-title: Bella 3.0
+title: Student Home
 description: Home Page
-navbar: nav/index.html
 hide: true
 ---
 
