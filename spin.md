@@ -6,7 +6,6 @@ permalink: /spinny
 comments: true
 ---
 
-## Spin Animation Time
 
 
 <div class="multicolor"></div>
