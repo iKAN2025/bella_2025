@@ -107,3 +107,149 @@ li .post-meta-description {
 .search-results-list-item .search-result-title {
     color: cornflowerblue !important;
 }
+
+// Variables
+$card-bg-color: #ffffff !default;
+$card-border-color: #e0e0e0  !default;
+$card-title-color: #333  !default;
+$card-text-color: #666  !default;
+$card-img-height: 200px  !default;
+$card-margin: 1.5rem  !default;
+$card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)  !default;
+$card-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.15)  !default;
+
+// Profile Pic Styles
+.profile-pic {
+  border-radius: 50% !important;
+  width: 150px !important;
+  height: 150px !important;
+}
+
+// Section Title Styles
+.section-title {
+  margin-top: 40px !important;
+}
+
+// Card Group Styles
+.card-group {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: $card-margin !important;
+  margin-top: $card-margin !important;
+
+  .card {
+    border: 1px solid $card-border-color !important;
+    border-radius: 0.5rem !important;
+    overflow: hidden !important;
+    box-shadow: $card-shadow !important;
+    transition: box-shadow 0.3s ease , transform 0.3s ease !important;
+    background-color: $card-bg-color !important;
+
+    &:hover {
+      box-shadow: $card-shadow-hover !important;
+      transform: translateY(-2px) !important;
+    }
+
+    .card-img-top {
+      height: $card-img-height !important;
+      object-fit: cover !important;
+      width: 100% !important;
+    }
+
+    .card-body {
+      padding: 1rem !important;
+      background-color: $card-bg-color !important;
+
+      .card-title {
+        margin-bottom: 0.5rem !important;
+        font-size: 1.25rem !important;
+        color: $card-title-color !important;
+
+        a {
+          color: $card-title-color !important;
+          text-decoration: none !important;
+          transition: color 0.3s ease !important;
+
+          &:hover {
+            color: darken($card-title-color, 10%) !important;
+          }
+        }
+      }
+
+      .card-text {
+        color: $card-text-color !important;
+        font-size: 0.875rem !important;
+        margin-bottom: 0.5rem !important;
+      }
+
+      strong {
+        display: block !important;
+        margin-top: 0.5rem !important;
+      }
+    }
+  }
+}
+
+
+
+@keyframes multicolor {
+    0% { background-color: palevioletred; }
+    12% { background-color: orange; }
+    24% { background-color: yellow; }
+    36% { background-color: lightgreen; }
+    48% { background-color: lightblue; }
+    72% { background-color: pink; }
+    84% { background-color: violet; }
+    100% { background-color: palevioletred; }
+}
+
+.multicolor {
+    width: 300px;
+    height: 300px;
+    animation: multicolor 5s linear infinite;
+    margin: auto;
+}
+
+@keyframes coolSpinnyStuff {
+    0% {
+      transform: rotate(0deg) translateX(0);
+    }
+    10% {
+      transform: rotate(36deg) translateX(-200px);
+    }
+    20% {
+      transform: rotate(72deg) translateX(200px);
+    }
+    30% {
+      transform: rotate(108deg) translateX(400px);
+    }
+    40% {
+      transform: rotate(144deg) translateX(200px);
+    }
+    50% {
+      transform: rotate(180deg) translateX(0);
+    }
+    60% {
+      transform: rotate(216deg) translateX(-200px);
+    }
+    70% {
+      transform: rotate(252deg) translateX(200px);
+    }
+    80% {
+      transform: rotate(288deg) translateX(400px);
+    }
+    90% {
+      transform: rotate(324deg) translateX(200px);
+    }
+    100% {
+      transform: rotate(360deg) translateX(0);
+    }
+}
+
+.coolSpinnyStuff {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: powderblue;
+    animation: coolSpinnyStuff 10s linear infinite;
+}

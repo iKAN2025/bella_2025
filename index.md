@@ -1,10 +1,18 @@
 ---
-layout: post
-title: iKAN2025's CSA Blog
-description: Home Page
+layout: base
+title: Bella's CSA Blog
 hide: true
-menu: nav/index.html
+
 ---
+
+{%  include nav/index.html %}
+
+
+
+> [Documentation For Color Box]({{site.baseurl}}/indexdocumententation)
+> [Ideation For Color Box]({{site.baseurl}}/indexideation)
+
+
 
 <html lang="en">
 <head>
@@ -14,6 +22,11 @@ menu: nav/index.html
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<p> ## Color Box 
+Items start out as their assigned colors before they are dragged into the box, where they are randomly assigned a color. The text changes to `Dropped`. <p>
+
+
+
     <div id="draggable-container">
         <!-- Draggable items will be added here by JavaScript -->
     </div>
@@ -79,9 +92,3 @@ menu: nav/index.html
 </body>
 </html>
 
-## Color Box 
-
-- [Documentation]({{site.baseurl}}/indexdocumententation)
-- [Ideation]({{site.baseurl}}/indexideation)
-
-Items start out as their assigned colors before they are dragged into the box, where they are randomly assigned a color. The text changes to `Dropped`.
