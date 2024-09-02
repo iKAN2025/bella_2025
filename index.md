@@ -1,27 +1,14 @@
 ---
 layout: post
-title: Bella's CSA Blog
+title: iKAN2025's CSA Blog
 description: Home Page
 hide: true
 menu: nav/index.html
 ---
 
-<img src="https://github.com/iKAN2025.png" class="profile-pic mt-4" alt="Profile Picture" style="display: block; margin: 0 auto;">
-
 <div style="text-align: center;">
-  <h2>iKAN2025</h2>
+  <h2>iKAN2025's Home Page</h2>
 </div>
-
-
-## Color Box 
-
-- [Documentation]({{site.baseurl}}/indexdocumententation)
-- [Ideation]({{site.baseurl}}/indexideation)
-
-Items start out as their assigned colors before they are dragged into the box, where they are randomly assigned a color. The text changes to `Dropped`.
-
-
-
 
 
 <html lang="en">
@@ -96,3 +83,10 @@ Items start out as their assigned colors before they are dragged into the box, w
 </script>
 </body>
 </html>
+
+## Color Box 
+
+- [Documentation]({{site.baseurl}}/indexdocumententation)
+- [Ideation]({{site.baseurl}}/indexideation)
+
+Items start out as their assigned colors before they are dragged into the box, where they are randomly assigned a color. The text changes to `Dropped`.
