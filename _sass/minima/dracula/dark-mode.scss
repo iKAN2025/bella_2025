@@ -3,7 +3,7 @@
 }
 
 $high-emph: rgba(0, 255, 143, 0.87);  // Lime green (complementary to dark blue)
-$med-emph: lightcoral; // Hot pink (complementary to dark blue)
+$med-emph: rgb(241, 150, 150); // Hot pink (complementary to dark blue)
 $low-emph: rgba(0, 255, 255, 0.38);   // Cyan teal (complementary to dark blue)
 $dark-grey : #001F3F; 
 
@@ -16,7 +16,7 @@ html, body, input, textarea, select, button {
 }
 
 a {
-    color: #FFA500 !important; // Bright Orange
+    color: orange !important; // Bright Orange
 }
 
 a:hover {
