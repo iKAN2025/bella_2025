@@ -1,7 +1,7 @@
 // _mixins.scss
 
 // Mixin used as a template for buttons
-@mixin button($backgroundColor: lightseagreen, $borderColor: black, $hoverBackgroundColor: darkslateblue) {
+@mixin button($backgroundColor: #003366, $borderColor: #00509e, $hoverBackgroundColor: #004080) {
   width: auto;
   height: auto;
   border-radius: 10px;
