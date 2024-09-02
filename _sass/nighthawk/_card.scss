@@ -1,12 +1,12 @@
 // Variables
-$card-bg-color: #ffffff;
-$card-border-color: #e0e0e0;
-$card-title-color: #333;
-$card-text-color: #666;
-$card-img-height: 200px;
-$card-margin: 1.5rem;
-$card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-$card-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.15);
+$card-bg-color: #ffffff !default;
+$card-border-color: #e0e0e0  !default;
+$card-title-color: #333  !default;
+$card-text-color: #666  !default;
+$card-img-height: 200px  !default;
+$card-margin: 1.5rem  !default;
+$card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)  !default;
+$card-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.15)  !default;
 
 // Profile Pic Styles
 .profile-pic {
