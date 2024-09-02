@@ -6,11 +6,6 @@ hide: true
 menu: nav/index.html
 ---
 
-<div style="text-align: center;">
-  <h2>iKAN2025's </h2>
-</div>
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
