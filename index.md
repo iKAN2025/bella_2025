@@ -37,10 +37,23 @@ hide: true
 
     // Define only 4 draggable items
     const items = [
-        { name: "Red", color: "#FF6347" },  // Tomato color
-        { name: "Green", color: "#3CB371" }, // Medium Sea Green
-        { name: "Blue", color: "#1E90FF" },  // Dodger Blue
-        { name: "Yellow", color: "#FFD700" } // Gold
+      {
+    "name": "Red",
+    "color": "#E57373" // Light Coral
+},
+{
+    "name": "Green",
+    "color": "#66CDAA" // Medium Aquamarine
+},
+{
+    "name": "Blue",
+    "color": "#64B5F6" // Light Blue
+},
+{
+    "name": "Yellow",
+    "color": "#FFEB3B" // Light Yellow
+}
+
     ];
 
     items.forEach((item) => {
