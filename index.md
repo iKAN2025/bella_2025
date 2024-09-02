@@ -7,7 +7,7 @@ menu: nav/index.html
 ---
 
 <div style="text-align: center;">
-  <h2>iKAN2025's Home Page</h2>
+  <h2>iKAN2025's </h2>
 </div>
 
 
