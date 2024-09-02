@@ -1,26 +1,26 @@
 // Override Syntax Highlighting In Minima With the Dracula Theme: https://draculatheme.com/
 // If you wish to override any of this CSS, do so in _sass/minima/custom-styles.css
- 
+
 $dt-gray-dark: #282a36;  // Background
-$dt-code-cell-background: darkblue;
+$dt-code-cell-background: #002451; // Dark Blue
 $dt-gray: #44475a;       // Current Line & Selection
 $dt-gray-light: #f8f8f2; // Foreground
 $dt-blue: #6272a4;       // Comment
-$dt-cyan: #8be9fd;
-$dt-green: #50fa7b;
-$dt-orange: #ffb86c;
-$dt-pink: #ff79c6;
-$dt-purple: #bd93f9;
-$dt-red: #ff5555;
-$dt-yellow: #f1fa8c;
-$dt-green-light: rgb(172, 229, 145);
+$dt-cyan: #8be9fd;       // Light Blue
+$dt-green: #50fa7b;      // Green
+$dt-orange: #ffb86c;     // Orange
+$dt-pink: #ff79c6;       // Pink
+$dt-purple: #bd93f9;     // Purple
+$dt-red: #ff5555;        // Red
+$dt-yellow: #f1fa8c;     // Yellow
+$dt-green-light: rgb(172, 229, 145); // Light Green
 
 .language-python + .language-plaintext {
-    border-left: 1px solid rgb(245, 11, 206);
+    border-left: 1px solid $dt-pink;
     margin-left: 1rem !important;
 }
 
-// ensure dark background for code in markdown
+// Ensure dark background for code in markdown
 [class^="language-"]:not(.language-plaintext) pre,
 [class^="language-"]:not(.language-plaintext) code {
     background-color: $dt-code-cell-background !important;
@@ -30,14 +30,14 @@ $dt-green-light: rgb(172, 229, 145);
 .language-python + .language-plaintext code { background-color: none !important; }
 .language-python + .language-plaintext pre  { background-color: white !important; }
 
-// for Jupyter Notebook HTML Code Cells modified from https://www.fast.ai/public/css/hyde.css
+// For Jupyter Notebook HTML Code Cells modified from https://www.fast.ai/public/css/hyde.css
 
 .input_area pre, .input_area div {
-    margin-bottom:1.0rem !important;
-    margin-top:1.5rem !important;
-    padding-bottom:0 !important;
-    padding-top:0 !important;
-    background: darkblue !important;
+    margin-bottom: 1.0rem !important;
+    margin-top: 1.5rem !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    background: $dt-code-cell-background !important;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace;
@@ -45,16 +45,16 @@ $dt-green-light: rgb(172, 229, 145);
     font-size: 105%;
 }
 .output_area pre, .output_area div {
-    margin-bottom:1rem !important;
-    margin-top:0rem !important;
-    padding-bottom:0 !important;
-    padding-top:0 !important;
+    margin-bottom: 1rem !important;
+    margin-top: 0rem !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
 }
 .input_area pre {
-    border-left: 1px solid lightcoral;
+    border-left: 1px solid $dt-red;
 }
 .output_area pre {
-    border-left: 1px solid grey;
+    border-left: 1px solid $dt-gray;
     margin-left: 1rem !important;
     font-size: 16px;
 }
@@ -95,7 +95,7 @@ $dt-green-light: rgb(172, 229, 145);
     .sr,
     .s1,
     .ss {
-         color:rgb(231, 153, 122);
+         color: $dt-orange;
     }
   
     .go {
@@ -132,8 +132,8 @@ $dt-green-light: rgb(172, 229, 145);
  
     .p {
          font-weight: bold;
-         color: rgb(102, 217, 239);
- }
+         color: $dt-cyan;
+    }
   
     .ge {
       text-decoration: underline;
@@ -152,7 +152,7 @@ $dt-green-light: rgb(172, 229, 145);
     }
 
     .c1 {
-      color: gray;
+      color: $dt-gray;
     }
   
     .kd,
@@ -164,7 +164,7 @@ $dt-green-light: rgb(172, 229, 145);
     .vg,
     .vi,
     .vm {
-      color: $dt-cyan;
+      color: $dt-green-light;
     }
   
     .kd,
@@ -183,7 +183,7 @@ $dt-green-light: rgb(172, 229, 145);
     .nc,
     .nf
      {
-      color: $dt-green-light;
+      color: $dt-green;
     }
   
     .k,

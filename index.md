@@ -1,16 +1,14 @@
 ---
 layout: base
 title: Bella's CSA Blog
+description: ## Color Box 
+Items start out as their assigned colors before they are dragged into the box, where they are randomly assigned a color. The text changes to `Dropped1. Here is the [Documentation For Color Box]({{site.baseurl}}/indexdocumententation) and the [Ideation For Color Box]({{site.baseurl}}/indexideation)
 hide: true
 
 ---
 
 {%  include nav/index.html %}
 
-
-
-> [Documentation For Color Box]({{site.baseurl}}/indexdocumententation)
-> [Ideation For Color Box]({{site.baseurl}}/indexideation)
 
 
 
@@ -22,8 +20,7 @@ hide: true
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<p> ## Color Box 
-Items start out as their assigned colors before they are dragged into the box, where they are randomly assigned a color. The text changes to `Dropped`. <p>
+
 
 
 

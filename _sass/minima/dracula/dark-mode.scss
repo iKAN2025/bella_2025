@@ -2,11 +2,11 @@
     --default-canvas-filter: invert(100%);
 }
 
-$high-emph: rgba(white, 0.87);
-$med-emph: rgba(white, 0.69); 
-$low-emph: rgba(white, 0.38);
+$high-emph: rgba(0, 255, 143, 0.87);  // Lime green (complementary to dark blue)
+$med-emph: rgba(255, 105, 180, 0.69); // Hot pink (complementary to dark blue)
+$low-emph: rgba(0, 255, 255, 0.38);   // Cyan teal (complementary to dark blue)
 $dark-grey : #002451; 
-// $dark-grey : #1F1B24;
+
 $overlay: mix($dark-grey, white, 95%);
 $overlay-light: mix($dark-grey, white, 86%);
 
