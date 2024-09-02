@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: Bella's CSA Blog
 description: Home Page
 hide: true
