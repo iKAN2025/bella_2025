@@ -7,7 +7,7 @@ baseurl: "/bella_2025"
 future: true
 remote_theme: jekyll/minima
 minima:
-  skin: dark
+  skin: sunrise
   social_links:
     - { platform: github, user_url: "https://github.com/iKAN2025"}
 # remote_theme: 
