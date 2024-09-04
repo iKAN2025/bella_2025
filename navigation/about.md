@@ -54,7 +54,7 @@ Hi, I'm iKAN2025, a student at Del Norte High School who is interested in comput
 </div>
 
 <h1 style="color:blue;">About me</h1>
-<p>My name is Bella   and I'm a senior that is interested in CS, machine learning, A.I, and data science.</p>
+<p>My name is Bella and I'm a senior that is interested in CS, machine learning, A.I, and data science.</p>
 
 
 <h2 style="color:blue;">Some things I do in my free time are:</h2>
