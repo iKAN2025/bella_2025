@@ -1,31 +1,68 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Navigation</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<table class="table table-bordered">
-  <tbody>
-    <tr>
-      <td>
-        <a href="{{site.baseurl}}/aboutme" target="_blank" title="Frontend">
-          <img src="https://github.com/iKAN2025.png" height="60" alt="Frontend">
-        </a>
-      </td>
-      <td><a href="{{site.baseurl}}/playground" class="btn btn-primary">Playground</a></td>
-      <td><a href="{{site.baseurl}}/menu" class="btn btn-primary">Fast Food Menu</a></td>
-      <td><a href="{{site.baseurl}}/score" class="btn btn-primary">GPA Calculator</a></td>
-      <td><a href="{{site.baseurl}}/spinner" class="btn btn-primary">Spinny Animation</a></td>
-    </tr>
-  </tbody>
-</table>
+  <style>
+    .table-container {
+      margin: 20px;
+    }
+    .custom-table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .custom-table td {
+      padding: 15px;
+      text-align: center;
+      border: 1px solid #dee2e6;
+    }
+    .custom-table img {
+      border-radius: 50%;
+      border: 2px solid #007bff;
+    }
+    .custom-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      color: #ffffff;
+      background-color: #007bff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .custom-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="table-container">
+    <table class="custom-table">
+      <tbody>
+        <tr>
+          <td>
+            <a href="{{site.baseurl}}/aboutme" target="_blank" title="Frontend">
+              <img src="https://github.com/iKAN2025.png" height="60" alt="Frontend">
+            </a>
+          </td>
+          <td><a href="{{site.baseurl}}/playground" class="custom-btn">Playground</a></td>
+          <td><a href="{{site.baseurl}}/menu" class="custom-btn">Fast Food Menu</a></td>
+          <td><a href="{{site.baseurl}}/score" class="custom-btn">GPA Calculator</a></td>
+          <td><a href="{{site.baseurl}}/spinner" class="custom-btn">Spinny Animation</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
 
