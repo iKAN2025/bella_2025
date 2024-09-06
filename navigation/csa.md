@@ -5,3 +5,5 @@ units: "1,2,3,4"
 course: csa
 permalink: /csa
 ---
+
+{%  include nav/index.html %}
