@@ -11,16 +11,9 @@ permalink: /about/
   <h2>iKAN2025</h2>
 </div>
 
-<h1 style="color:blue;">About me</h1>
-Hi, I'm iKAN2025, a student at Del Norte High School who is interested in computer science. I am passionate about full-stack development and machine learning. I love solving real-world problems through technology and enjoy collaborating with teams to build innovative solutions. 
 
 
 
-## Key Interests
-- **Technology and Innovation**: Leveraging technology to solve complex problems.
-- **Machine Learning and AI**: Developing and implementing intelligent systems.
-- **Full Stack Development**: Building comprehensive web applications from front-end to back-end.
-- **Team Collaboration**: Working effectively within teams to achieve common goals.
 
 ## Featured Projects
 <div class="card-group">
@@ -62,3 +55,11 @@ Hi, I'm iKAN2025, a student at Del Norte High School who is interested in comput
 <p>Go biking</p>
 <p>Watch TV</p>
 
+<h1 style="color:blue;">About me</h1>
+Hi, I'm iKAN2025, a student at Del Norte High School who is interested in computer science. I am passionate about full-stack development and machine learning. I love solving real-world problems through technology and enjoy collaborating with teams to build innovative solutions. 
+
+## Key Interests
+- **Technology and Innovation**: Leveraging technology to solve complex problems.
+- **Machine Learning and AI**: Developing and implementing intelligent systems.
+- **Full Stack Development**: Building comprehensive web applications from front-end to back-end.
+- **Team Collaboration**: Working effectively within teams to achieve common goals.
