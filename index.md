@@ -2,7 +2,7 @@
 layout: base
 title: Bella's CSA Blog
 hide: true
-
+comments: true
 ---
 
 {%  include nav/index.html %}
