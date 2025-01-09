@@ -1,16 +1,13 @@
 ---
 layout: post
 title: Student Panel
-description: Insights from Student Panel 2024
+description:  Summary of Panelist Insights on STEM, College Preparation, and Career Development
 courses: {csa: {week: 4}}
 type: issues
 permalink: /panel
 comments: true
 ---
 
-
-
-# Summary of Panelist Insights on STEM, College Preparation, and Career Development
 
 ## STEM and Project-Based Learning
 - **Importance of STEM**: STEM is huge, especially in tech cities like San Diego, where opportunities are abundant. Getting involved in projects early on gives you hands-on experience that matters more than grades in the long term.
