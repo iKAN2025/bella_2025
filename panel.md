@@ -8,6 +8,7 @@ permalink: /panel
 comments: true
 ---
 
+![image]({{site.baseurl}}/ree.png)
 
 ## STEM and Project-Based Learning
 - **Importance of STEM**: STEM is huge, especially in tech cities like San Diego, where opportunities are abundant. Getting involved in projects early on gives you hands-on experience that matters more than grades in the long term.
