@@ -56,3 +56,24 @@ comments: true
 3. **Internships and Networking**: Actively seek internships and network with professionals. Building a portfolio of real-world projects is essential.
 4. **STEM Opportunities**: Take advantage of **dual enrollment**, **community college classes**, and **internships** to prepare for college and career paths.
 5. **Building a Portfolio**: A strong portfolio showcasing your work (such as websites, coding challenges, or engineering projects) is more valuable than simply focusing on grades.
+
+## Action Steps 
+1. Build Upon My  Portfolio
+ I will create update my personal website or online portfolio to showcase my projects, coding challenges, and achievements. This will serve as my digital resume and can be shared with potential employers or internship recruiters.
+
+ I will participate in hackathons (maybe in college) to build working projects quickly and gain exposure to different aspects of coding and teamwork. This is a great way to challenge myself and demonstrate my skills.
+
+2. Prioritize Networking and Internship Opportunities
+
+Attend Career Fairs and Networking Events: I will participate in career fairs, technical meetups, or hackathons to network with professionals in the field. These are great places to make connections that could lead to internships or job offers, and I've never been toa career fair. 
+For college apps, I DID go to a particular informative student panel for Caltech though, and a presentation from a John Hopkins admissions officer. It was really fun, eye-opening and informative. I got to explore student culture and learn how things work and what different universities are focused on. Maybe I should 
+
+LinkedIn: I will build/update  my LinkedIn profile from last year's mock interviews to showcase my projects, experience, and skills. I did make a portfolio for college as well, so I can maybe have a resume and stuff! 
+
+
+3. Develop and Improve Technical Skills
+Learn Key Tools: I will familiarize myself with industry-standard tools like Excel, MATLAB, for data analysis and modeling. These tools are frequently used in engineering and tech fields.
+
+Master Algorithms: I will participate in coding challenges on platforms like LeetCode, HackerRank, or Codewars to improve my problem-solving skills, which are essential for technical interviews.
+
+I'm also interested in pursuing Computer Engineering in college, which requires me to learn Assembly, and a little a bit of E/M (Physics!) for domain knowledge. I'll also cover compiler design. 
