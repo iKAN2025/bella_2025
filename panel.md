@@ -9,72 +9,103 @@ comments: true
 ---
 
 ![image]({{site.baseurl}}/ree.png)
+![image]({{site.baseurl}}/reee.png)
+
+# Student Panel Summary
 
 ## STEM and Project-Based Learning
-- **Importance of STEM**: STEM is huge, especially in tech cities like San Diego, where opportunities are abundant. Getting involved in projects early on gives you hands-on experience that matters more than grades in the long term.
-- **Project-Based Learning**: Many panelists emphasize how working on projects during high school, such as **Science Olympiad**, **CyberPatriot**, and **internships**, shaped their technical skills. **Project-based learning (PBL)** not only develops skills but also boosts engagement and provides tangible results. Panelists, like **Vivian**, appreciated the satisfaction of having working projects.
-  
+### Importance of STEM
+STEM plays a significant role, especially in tech-driven cities like San Diego, where opportunities abound. Engaging in projects early provides hands-on experience that often matters more than grades in the long run.
+
+### Project-Based Learning (PBL)
+- Many panelists emphasized how working on projects during high school, such as **Science Olympiad**, **CyberPatriot**, and **internships**, shaped their technical skills.
+- **PBL** not only develops skills but also boosts engagement and provides tangible results. For example, **Vivian** highlighted the satisfaction of completing working projects.
+
+---
+
 ## High School Preparation and Extracurricular Activities
-- **Extracurriculars**:
-  - **Science Olympiad**: A key extracurricular that helped in competition and learning.
-  - **CyberPatriot**: A cybersecurity competition that taught how to secure systems, such as Windows and servers.
-  - **Research and Internships**: Cold emailing for opportunities and internships, including at companies like **Northrop Grumman** for **Vivian**.
-  - **LeetCode**: Engaging with platforms for coding challenges that helped improve technical skills.
-  - **Club Involvement**: Many panelists joined technical clubs, like **CS Clubs**, and served in leadership positions to build communication and project management skills.
-  
-## College Admissions and Career Preparation
-- **College Applications**:
-  - Focus on **essays** discussing specific projects in **CSA** (Computer Science and Applications) and **CSP** (Computer Science Principles). Highlight **how and why** you want to be part of a specific program and how it aligns with your goals.
-  - For **engineering and tech majors**, research the **major** and **professors** at your desired university. Understand what classes they offer and how they align with your career interests.
-  - **Dual Enrollment**: Taking community college classes during high school helps accumulate credits and refresh knowledge when taking them again in college.
+### Extracurriculars
+- **Science Olympiad**: Key for competition and skill development.
+- **CyberPatriot**: Taught cybersecurity, focusing on securing systems like Windows and servers.
+- **Internships**: Gained through cold emailing companies, including **Northrop Grumman** for **Vivian**.
+- **LeetCode**: Coding challenge platforms improved technical skills.
+- **Club Involvement**: Joining clubs like **CS Clubs** and taking leadership roles to build communication and project management skills.
 
-- **Interviews**:  
-  - The format of **live reviews** in the panel was similar to actual **interviews**, emphasizing clear and concise communication, which is a key skill for success. Panelists highlighted how the ability to **talk clearly and stay on-topic** can set you apart.
-  - **Communication** with recruiters is crucial; it's important to demonstrate your technical skills and articulate how you approach problems.
+### College Applications
+- Focus on essays that discuss specific projects in **CSA** (Computer Science and Applications) or **CSP** (Computer Science Principles).
+- Highlight how your projects align with your goals and the program you're applying for.
+- Research majors, professors, and courses to tailor applications.
+- **Dual Enrollment**: Taking community college classes during high school helps accumulate credits and refresh knowledge.
 
-- **Engineering Tools**:  
-  Panelists emphasized the importance of **CSA tools** like **flowcharts** and **methodologies** such as **Agile** in organizing and communicating ideas effectively. Understanding and using these tools gives you a significant edge in both school projects and professional settings.
+---
+
+## College and Career Preparation
+### Interviews
+- Live reviews emphasized the importance of clear, concise communication.
+- Demonstrate technical skills and articulate your problem-solving approach effectively.
+
+### Engineering Tools
+- Tools like **flowcharts** and methodologies like **Agile** are essential for organizing and communicating ideas, both in school projects and professional settings.
+
+---
 
 ## Personal Growth and Development
-- **Learning from Experience**: Many panelists reflected on how they gained practical experience through **internships**, **club leadership**, and **project work**. For instance:
-  - **Vivian** worked with a **team of engineers** at **Northrop Grumman** and participated in hackathons, where she honed both frontend and backend development skills.
-  - **David** learned project management and design reviews through his role as **chief engineer of a solar racing team** and in his work with **simulation software**.
-  
+### Learning from Experience
+- Practical experience gained through internships, leadership roles, and project work.
+  - **Vivian**: Worked with engineers at **Northrop Grumman** and participated in hackathons.
+  - **David**: Learned project management and design reviews in solar racing projects.
+  - **Nathan**: Built **TrackScout**, an app that helps match high school athletes with colleges. Took advantage of the pandemic to learn Agile methodology, refine web development skills, and create impactful tools.
+  - **Aadit**: Scaled projects like a **KASM server** for cloud-based solutions, explored robotics and React development, and demonstrated his impact through cloud infrastructure work.
+
+---
+
 ## Career and Industry Trends
-- **Jobs Don't Care About GPA**: Employers look at the kinds of projects you've worked on and the **technical skills** you bring to the table, rather than just your GPA. Panelists agreed that a strong **portfolio** showcasing real-world experience is more important than grades.
-- **Technical Skills**: Jobs in fields like **engineering** and **cybersecurity** focus on practical skills. For example, **Michael Hayes** talked about how he used tools like **Draw.io** for flowcharting and understood the technical implementation of energy systems.
+### Real-World Skills Over GPA
+- Employers prioritize portfolios showcasing real-world projects over grades.
+- Demonstrating technical skills and project impact is crucial.
 
-## The Importance of Communication
-- **Talking to Recruiters**: Effective communication during **live reviews** mirrors real-world job interviews, where the goal is to explain your thought process clearly. Panelists mentioned how discussing projects and **technical challenges** clearly and concisely helped them during their recruitment process.
+### Technologies and Methodologies
+- Emphasis on using tools like **Excel**, **MATLAB**, and **Python**.
+- Creating **flowcharts** and using **Scrum** methodology for structured project development.
 
-## Technologies and Methodologies
-- **Engineering Tools**: Panelists discussed using **Excel, Python, MATLAB**, and **Jupyter Notebooks** as part of their work in various engineering fields. They emphasized the importance of **explaining** how code works, rather than just focusing on whether it runs.
-- **Flowcharts and Diagrams**: Creating **use case diagrams**, **flowcharts**, and utilizing methodologies like **Scrum** helped structure projects and communicate ideas effectively.
+---
 
 ## Summary of Panelist Insights
-1. **Passion for Projects**: Panelists stressed that high school is a great time to immerse yourself in STEM and work on projects that excite you. Whether it's **coding**, **engineering**, or **cybersecurity**, dive into hands-on learning.
-2. **Communication Skills**: Mastering how to communicate effectively—especially through **interviews** and **live reviews**—is critical for success.
-3. **Internships and Networking**: Actively seek internships and network with professionals. Building a portfolio of real-world projects is essential.
-4. **STEM Opportunities**: Take advantage of **dual enrollment**, **community college classes**, and **internships** to prepare for college and career paths.
-5. **Building a Portfolio**: A strong portfolio showcasing your work (such as websites, coding challenges, or engineering projects) is more valuable than simply focusing on grades.
+1. **Passion for Projects**: High school is an excellent time to explore STEM and work on projects.
+2. **Communication Skills**: Clear communication during interviews and live reviews is critical.
+3. **Internships and Networking**: Seek internships and network to build a strong portfolio.
+4. **STEM Opportunities**: Take advantage of dual enrollment and community college classes.
+5. **Portfolio Building**: Showcase projects, coding challenges, and achievements.
 
-## Action Steps 
-1. Build Upon My  Portfolio
- I will create update my personal website or online portfolio to showcase my projects, coding challenges, and achievements. This will serve as my digital resume and can be shared with potential employers or internship recruiters.
+---
 
- I will participate in hackathons (maybe in college) to build working projects quickly and gain exposure to different aspects of coding and teamwork. This is a great way to challenge myself and demonstrate my skills.
+## Action Steps
+### 1. Build and Update My Portfolio
+- Update my personal website or portfolio to showcase projects, coding challenges, and achievements.
+- Participate in hackathons to build working projects and develop teamwork skills.
+- Highlight impactful projects like:
+  - **TrackScout** by Nathan: An app matching high school athletes to colleges, showcasing his web development and Agile methodology skills.
+  - **KASM Server Project** by Aadit: Scaled a cloud-based solution, combining robotics, React development, and cloud infrastructure expertise.
 
-2. Prioritize Networking and Internship Opportunities
+### 2. Prioritize Networking and Internships
+- **Career Fairs and Networking Events**: Attend events to make connections and seek opportunities.
+- **LinkedIn**: Update my profile with projects, skills, and experience.
+- Highlight past experiences, such as a Caltech student panel and a Johns Hopkins presentation.
+- Follow Nathan's example of leveraging downtime (e.g., during the pandemic) to reach out to mentors, refine skills, and work on passion projects.
 
-Attend Career Fairs and Networking Events: I will participate in career fairs, technical meetups, or hackathons to network with professionals in the field. These are great places to make connections that could lead to internships or job offers, and I've never been toa career fair. 
-For college apps, I DID go to a particular informative student panel for Caltech though, and a presentation from a John Hopkins admissions officer. It was really fun, eye-opening and informative. I got to explore student culture and learn how things work and what different universities are focused on. Maybe I should 
+### 3. Develop Technical Skills
+- Learn industry tools like **Excel** and **MATLAB** for data analysis and modeling.
+- Practice coding challenges on **LeetCode**, **HackerRank**, or **Codewars**.
+- Prepare for **Computer Engineering**, covering:
+  - Assembly language.
+  - Physics (E/M) for domain knowledge.
+  - Compiler design.
+- Explore full-stack development frameworks like **React**, as Aadit did, and apply these to practical projects.
 
-LinkedIn: I will build/update  my LinkedIn profile from last year's mock interviews to showcase my projects, experience, and skills. I did make a portfolio for college as well, so I can maybe have a resume and stuff! 
+---
 
+### Key Takeaways from Nathan and Aadit
+- **Nathan**: Leveraged his creativity and technical skills to build a successful app, mastered Agile methods, and used the pandemic to refine his web development expertise.
+- **Aadit**: Demonstrated a strong command of cloud technologies, robotics, and front-end frameworks like React, proving the importance of adaptability and scalability in projects.
 
-3. Develop and Improve Technical Skills
-Learn Key Tools: I will familiarize myself with industry-standard tools like Excel, MATLAB, for data analysis and modeling. These tools are frequently used in engineering and tech fields.
-
-Master Algorithms: I will participate in coding challenges on platforms like LeetCode, HackerRank, or Codewars to improve my problem-solving skills, which are essential for technical interviews.
-
-I'm also interested in pursuing Computer Engineering in college, which requires me to learn Assembly, and a little a bit of E/M (Physics!) for domain knowledge. I'll also cover compiler design. 
+Both panelists highlighted the importance of project-based learning, networking, and showcasing impactful, scalable solutions to stand out in competitive fields.
