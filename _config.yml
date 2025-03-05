@@ -8,6 +8,9 @@ future: true
 remote_theme: jekyll/minima
 minima:
   skin: dark
+  nav_pages:
+    - navigation/blog.md
+    - navigation/search.md
   social_links:
     - { platform: github, user_url: "https://github.com/iKAN2025"}
 # Rotation theme
@@ -15,7 +18,6 @@ minima:
 
 plugins:
   - jekyll-remote-theme
-minima:
-  nav_pages:
-    - navigation/blog.md
-    - navigation/search.md
+
+  
+
