@@ -7,7 +7,7 @@ description: This class will require you to make a Portfolio 2025 Web Site, a Gi
 categories: ['DevOps']
 permalink: /tools/accounts
 breadcrumb: True 
-type: ccc
+type: issues
 courses: {csa: {week: 2}}
 ---
 
